@@ -1,0 +1,72 @@
+.app {
+    @media screen and (max-width: 300px) {
+        :global(.ms-CommandBarItem) {
+            display: block !important;
+        }
+        .mobClass{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        :global(.ms-CommandBarItem) {
+            display: block !important;
+        }
+        .mobClass{
+            display: none;
+        }
+    }
+
+    .top {
+        height: 45px;
+        text-align: left;
+        line-height: 2.5;
+        font-weight: bold;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+      //  background-color: white;
+        border-radius: 15px;
+        border-style:groove;
+        padding-left: 20px;
+        background-color: #636363;
+        margin: 0px;
+    }
+    .bottom,
+    a,
+    a:visited,
+    a:hover {
+        height: 45px;
+        text-align: center;
+        line-height: 2.5;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: orange;
+    }
+    .commandBar {
+        width: 100%;
+        background-color: gray;
+        color: gray;
+              height: 40px;
+        border-radius: 15px;
+    }
+    span{
+        color: gray;
+        i{
+            color:gray;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: orange;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divAtt{
+       // background-color: white;
+       background-color: #636363;
+        padding: 5px;
+        width: 100%;
+    }
+}

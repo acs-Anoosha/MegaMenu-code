@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SitenavMegamenu"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="6a9df03a-f5da-4484-b0d8-a7e3b9841b70"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
